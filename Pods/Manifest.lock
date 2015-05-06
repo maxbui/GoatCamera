@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EGOCache (2.1.3)
+  - FCFileManager (1.0.7)
+  - FSImageViewer (2.6.3):
+    - AFNetworking (~> 2.2)
+    - EGOCache (~> 2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - FCFileManager (~> 1.0.6)
+  - FSImageViewer (from `https://github.com/muzix/FSImageViewer.git`)
+
+EXTERNAL SOURCES:
+  FSImageViewer:
+    :git: https://github.com/muzix/FSImageViewer.git
+
+CHECKOUT OPTIONS:
+  FSImageViewer:
+    :commit: 84f552cbe4c491fcf664d055f9f19899e4913b25
+    :git: https://github.com/muzix/FSImageViewer.git
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  EGOCache: f0295dbe041156acabd39021354ad1045ee49e72
+  FCFileManager: fd77211e8448b0e9713d51d4f75769d9dc4ceb58
+  FSImageViewer: b8dafe340d43c72548a694c0e3ac1daec68e82ad
+
+COCOAPODS: 0.37.0
